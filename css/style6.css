@@ -1,0 +1,59 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.hero{
+    background-image: url(../image/background/slider-mainbg-001.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.cp{
+    color: deeppink;
+}
+.cpb{
+    background-color: deeppink;
+}
+.bt:hover{
+    background-color:aqua;
+    color: black;
+}
+.cbb{
+    background-color: black;
+}
+.ac:hover{
+    background-color: deeppink;
+    color: white;
+}
+
+@media(min-width:992px){
+    .af{
+        position: relative;
+        bottom: 100px;
+    } 
+}
+.at:hover{
+    color: deeppink;
+}
+.ay:hover{
+    scale: 1.05;
+}
+.ak:hover{
+    color: deeppink;
+}
+.am:hover{
+    color: deeppink;
+}
+
